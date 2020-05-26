@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Movie Expert</string>
+    <string name="search_box_hint">Search for a movie...</string>
+    <string name="search_button_text">Search</string>
+    <string name="loading_error">We have ran into a problem!</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_save">Save</string>
+    <string name="action_settings">Settings</string>
+    <string name="share_chooser_title">How do you want to share this movie?</string>
+    <string name="share_repo_text">Check out this Movie! %1$s: %2$s</string>
+
+    <string name="nav_home">Recommendation</string>
+    <string name="nav_saved">Movie Library</string>
+    <string name="nav_search">Discover</string>
+    <string name="nav_settings">Filter</string>
+
+    <string name="img_none">No Image Available</string>
+
+    <!-- Strings for sort-by preferences -->
+    <string name="pref_sort_key" translatable="false">sort_by</string>
+    <string name="pref_sort_title">Find your Movie!</string>
+    <string name="pref_sort_default_value" translatable="false">popularty.desc</string>
+
+    <!-- Strings for sort-by popularity.desc -->
+    <string name="pref_sort_popularity_key">popularity.desc</string>
+
+    <!-- Strings for sort-by release_date.desc -->
+    <string name="pref_sort_release_date_key">release_date.desc</string>
+
+    <!-- Strings ofr sort-by vote_average.desc -->
+    <string name="pref_sort_vote_average_key">vote_average.desc</string>
+
+    <!-- Strings for sort-by vote_count.desc -->
+    <string name="pref_sort_vote_count_key">vote_count.desc</string>
+
+    <!-- Strings for Vote Count Minimum -->
+    <string name="pref_vote_count_key">vote_count.gte</string>
+    <string name="pref_vote_count_title">Minimum Vote Count</string>
+
+    <!-- Strings for Minimum Rating -->
+    <string name="pref_vote_avg_key">vote_average.gte</string>
+    <string name="pref_vote_avg_title">Min. Average Rating (0.0 to 10.0)</string>
+
+    <!-- Strings for Release Date -->
+    <string name="pref_release_year_key">primary_release_date.gte</string>
+    <string name="pref_release_year_title">Minimum Release Year</string>
+
+    <!-- Strings for genre preference -->
+    <string name="pref_genre_key" translatable="false">with_genres</string>
+    <string name="pref_genre_title">Genre</string>
+    <string name="pref_genre_default"></string>
+
+
+
+    <!-- Strings for sort-by preferences -->
+
+    <string name="pref_sort_default"></string>
+
+    <!-- Strings for Vote Count Minimum -->
+    <string name="pref_vote_count_default">vote_count.desc</string>
+
+
+    <!-- Strings for Release Date -->
+    <string name="pref_release_year_default">release_date.desc</string>
+
+</resources>

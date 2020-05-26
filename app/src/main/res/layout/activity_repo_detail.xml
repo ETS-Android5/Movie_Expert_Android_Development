@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MovieDetailActivity"
+    android:background="@color/colorBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/detail_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/poster_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:layout_height="250dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/poster_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="invisible"/>
+
+                        <TextView
+                            android:id="@+id/No_Image"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="90dp"
+                            android:textAlignment="center"
+                            android:text="@string/img_none"
+                            android:textSize="32sp"
+                            android:visibility="visible"
+                            android:gravity="center_horizontal" />
+
+                        <TextView
+                            android:id="@+id/tv_loading_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:padding="16dp"
+                            android:visibility="invisible"
+                            android:text="@string/loading_error" />
+
+
+                    </FrameLayout>
+
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:textSize="24sp"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv_rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextSecondary"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tv_extra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextSecondary"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv_overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTextPrimary"
+                    android:gravity="center_horizontal" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</LinearLayout>
+

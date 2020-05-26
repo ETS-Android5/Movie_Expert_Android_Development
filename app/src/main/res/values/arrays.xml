@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sort_entries">
+        <item>Best Match</item>
+        <item>Vote Average</item>
+        <item>Popularity</item>
+        <item>Release Year</item>
+        <item>Revenue</item>
+        <item>Vote Count</item>
+    </string-array>
+
+    <string-array name="pref_sort_main_entries">
+        <item>The Most Popular?</item>
+        <item>The latest?</item>
+        <item>The Best?</item>
+        <item>The Most Voted?</item>
+    </string-array>
+
+    <string-array name="pref_sort_values">
+        <item></item>
+        <item>vote_average.desc</item>
+        <item>popularity.desc</item>
+        <item>primary_release_date.desc</item> <!-- This one may not work -->
+        <item>revenue.desc</item>
+        <item>vote_count.desc</item>
+    </string-array>
+
+    <string-array name="pref_sort_main_values">
+        <item>@string/pref_sort_popularity_key</item>
+        <item>@string/pref_sort_release_date_key</item>
+        <item>@string/pref_sort_vote_average_key</item>
+        <item>@string/pref_sort_vote_count_key</item>
+    </string-array>
+
+    <string-array name="pref_genre_entries">
+        <item>Any Genre</item>
+        <item>Horror</item>
+        <item>Science Fiction</item>
+        <item>Action</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Romance</item>
+        <item>Thriller</item>
+    </string-array>
+
+    <string-array name="pref_genre_values">
+        <item></item>
+        <item>27</item>
+        <item>878</item>
+        <item>28</item>
+        <item>35</item>
+        <item>18</item>
+        <item>10749</item>
+        <item>53</item>
+    </string-array>
+</resources>

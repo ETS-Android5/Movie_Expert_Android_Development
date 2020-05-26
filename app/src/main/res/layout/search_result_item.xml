@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="middle"
+    android:divider="?android:attr/listDivider"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/iv_img_icon"
+        android:layout_width="100dp"
+        android:layout_height="160dp" />
+
+    <TextView
+        android:id="@+id/tv_search_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="60dp"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="20sp" />
+
+</LinearLayout>
