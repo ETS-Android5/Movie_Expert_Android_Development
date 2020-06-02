@@ -6,4 +6,4 @@ the basic function contain:
 3. share movies
 4. save favorite movies
 5. get detailed information about movies
-
+demo video link: https://youtu.be/kI6_jyHvwJk
